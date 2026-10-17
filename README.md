@@ -1,6 +1,7 @@
 # DSN580S Assignment: A Single-Node Kubernetes Cluster with Minikube on AWS
 
-**Student Number:** 240497821
+**Student Number: 240497821
+
 **Student Name: Kamva Ntlanga
 
 ## Task 1: Provision and secure the instance
@@ -42,6 +43,3 @@
 
 **Multi-node Clusters:** A real, multi-node cluster would add high availability. The control plane components (like etcd and kube-apiserver) could run on multiple nodes using leader election, preventing a single failure from killing the control plane. The scheduler would distribute pods across multiple worker nodes, meaning a hardware failure on one node would only affect the pods on that node, while replicas on other nodes keep the application running. However, this introduces new distributed system problems, such as network partitions (split-brain), the complexity of keeping etcd consistent across nodes, and the need for load balancing across different physical machines.
 
-**References:**
-1. Kubernetes Documentation. *Services, Load Balancing, and Networking*. Available at: https://kubernetes.io/docs/concepts/services-networking/service/
-2. Tanenbaum, A. S., & Van Steen, M. (2017). *Distributed Systems: Principles and Paradigms*.
