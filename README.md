@@ -1,8 +1,8 @@
 # DSN580S Assignment: A Single-Node Kubernetes Cluster with Minikube on AWS
 
-**Student Number: 240497821
+Student Number: 240497821
 
-**Student Name: Kamva Ntlanga
+Student Name: Kamva Ntlanga
 
 ## Task 1: Provision and secure the instance
 *   Launched an Ubuntu 26.04 LTS `t3.medium` instance on AWS EC2.
