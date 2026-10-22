@@ -43,3 +43,8 @@ Student Name: Kamva Ntlanga
 
 **Multi-node Clusters:** A real, multi-node cluster would add high availability. The control plane components (like etcd and kube-apiserver) could run on multiple nodes using leader election, preventing a single failure from killing the control plane. The scheduler would distribute pods across multiple worker nodes, meaning a hardware failure on one node would only affect the pods on that node, while replicas on other nodes keep the application running. However, this introduces new distributed system problems, such as network partitions (split-brain), the complexity of keeping etcd consistent across nodes, and the need for load balancing across different physical machines.
 
+References:
+
+Kubernetes Documentation. Services, Load Balancing, and Networking. Available at: https://kubernetes.io/docs/concepts/services-networking/service/
+
+Kubernetes Documentation. Nodes. Available at: https://kubernetes.io/docs/concepts/architecture/nodes/
