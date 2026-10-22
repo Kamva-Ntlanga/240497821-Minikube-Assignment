@@ -5,7 +5,7 @@ Student Number: 240497821
 Student Name: Kamva Ntlanga
 
 ## Task 1: Provision and secure the instance
-*   Launched an Ubuntu 26.04 LTS `t3.medium` instance on AWS EC2.
+*   Launched an Ubuntu 26.04 LTS t3.medium instance on AWS EC2.
 *   Configured Security Group: SSH (Port 22) allowed from My IP only.
 *   Connected via SSH: 
     `ssh -i 240497821-assignmnet.pem ubuntu@3.87.244.155`
