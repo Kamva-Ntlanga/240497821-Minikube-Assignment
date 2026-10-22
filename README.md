@@ -46,5 +46,4 @@ Student Name: Kamva Ntlanga
 References:
 
 Kubernetes Documentation. Services, Load Balancing, and Networking. Available at: https://kubernetes.io/docs/concepts/services-networking/service/
-
 Kubernetes Documentation. Nodes. Available at: https://kubernetes.io/docs/concepts/architecture/nodes/
